@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="chooesMood changeMood">
+        <label for="textColor"> <i class="fa-solid fa-font fs-5 p-2"></i> </label> <input type="color" id="textColor">
+    </div>
+    <div class="chooesMood changeMood">
+        <label for="bgColor"><i class="fa-sharp fa-solid fa-brush fs-5 p-2"></i></label> <input type="color" id="bgColor">
+    </div>
+
+    <div class="header mt-3">
+       <h1>Calculator <i class="fa-solid fa-calculator"></i></h1>
+    </div>
+    <div class="container col-md-6 col-lg-12">
+        <table>
+            <tr>
+                <th colspan='4'><input type="text" class="form-control p-2 my-2 text-align-center" id="result" readonly placeholder="Result"></th>
+            </tr>
+            <tr> 
+                <th><input type="button" class="btn btn-info"readonly value="1"></th>
+                <th><input type="button" class="btn btn-info"readonly value="2"></th>
+                <th><input type="button" class="btn btn-info"readonly value="3"></th>
+                <th><input type="button" class="btn btn-info"readonly value="+"></th>
+            </tr>
+            <tr>
+                <th><input type="button" class="btn btn-info"readonly value="4"></th>
+                <th><input type="button" class="btn btn-info"readonly value="5"></th>
+                <th><input type="button" class="btn btn-info"readonly value="6"></th>
+                <th><input type="button" class="btn btn-info"readonly value="- "></th>
+            </tr>
+            <tr>
+                <th><input type="button" class="btn btn-info"readonly value="7"></th>
+                <th><input type="button" class="btn btn-info"readonly value="8"></th>
+                <th><input type="button" class="btn btn-info"readonly value="9"></th>
+                <th><input type="button" class="btn btn-info"readonly value="* "></th>
+            </tr>
+            <tr>
+                <th><input type="button" class="btn btn-info"readonly value="0"></th>
+                <th><input type="button" class="btn btn-info"readonly value="00 "></th>
+                <th><input type="button" class="btn btn-success"readonly value="="></th>
+                <th><input type="button" class="btn btn-info"readonly value="/ "></th>
+            </tr>
+            <tr>
+                <th><input type="button" class="btn btn-info" readonly value="Round"></th>
+                <th><input type="button" class="btn btn-info" readonly value="Random"></th>
+                <th><input type="button" class="btn btn-info"readonly value="."></th>
+                <th><input type="button" class="btn btn-info"readonly value="Ceil"></th>
+            </tr>
+            <tr>
+                <th><input type="button" class="btn btn-info" readonly value="Cos"></th>
+                <th><input type="button" class="btn btn-info" readonly value="Sin"></th>
+                <th><input type="button" class="btn btn-info"readonly value="POW"></th>
+                <th><input type="button" class="btn btn-info"readonly value="Sqrt"></th>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="button" class="btn btn-warning " readonly value="Back"></th>
+                <th colspan="2"><input type="button" class="btn btn-danger" readonly value="Clear"></th>
+            </tr>
+        </table>
+    </div>
+    <div class="footer col-md-6 col-lg-12">
+        <h6>Created By Eng:Abdelrahman Abdelsamie</h6> 
+        <span><a href="https://www.facebook.com/profile.php?id=100005529162067"><i class="fa-brands fa-facebook"></i></a></span>
+        <span><a href="https://www.instagram.com/abdelrahman_marey98/#"><i class="fa-brands fa-instagram"></i></a></span>
+        <span><a href="https://web.whatsapp.com/01129508321/#"><i class="fa-brands fa-whatsapp"></i></a></span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9992a75c8c.js" crossorigin="anonymous"></script>
+    <script src="calc.js"></script>
+</body>
+</html>

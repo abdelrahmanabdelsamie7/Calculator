@@ -1,0 +1,67 @@
+.header 
+{
+    display: flex; 
+    justify-content: center ; 
+    align-items: center; 
+}
+.header h1 
+{
+    font-size: 35px; 
+    font-weight: bold; 
+    font-family: 'Courier New', Courier, monospace; 
+    /*color: rgb(33, 37, 41) ;*/
+    cursor: pointer;
+}
+.changeMood 
+{
+    display: flex; 
+    justify-content: end; 
+    align-items: end;    
+}
+.container 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 60px;
+}
+#result 
+{
+    text-align: center ; 
+    font-size: 20px; 
+   /* color: rgb(33, 37, 41) ;*/
+}
+.btn-warning
+{
+    width: 100%;
+}
+.btn-danger
+{
+    width: 100%;
+}
+.container input.btn 
+{
+    min-width: 100px; 
+    min-height: 40px; 
+    text-align: center; 
+    padding: 10px;
+    margin: 2px;
+}
+.footer {
+   text-align: center;
+   margin-top: 25px;
+}
+.footer h6 {
+    font-size: 15px; 
+    font-style: italic; 
+    /*color: rgb(33, 37, 41) ; */
+    cursor: pointer;
+}
+.footer span i 
+{
+    font-size: 19px; 
+    font-weight: 220; 
+    /*color: rgb(33, 37, 41);*/
+    padding: 9px;
+    cursor: pointer;
+}
